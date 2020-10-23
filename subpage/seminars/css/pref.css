@@ -1,0 +1,62 @@
+
+table { 
+  border:0px solid #FFFFFF; 
+  font-family: 'Playfair Display', serif;
+  font-size:16px; 
+  text-align:center;
+  border-collapse:collapse;
+} 
+th { 
+  background-color: hsl(0, 0%, 35%)	;
+  padding:10px;
+  border:0px solid #FFFFFF;
+  color:#fff;
+  font-family: 'Playfair Display', 'Noto Sans TC', sans-serif;
+} 
+td { 
+  border:0px solid #FFFFFF;
+  padding:5px;
+  font-family: 'Playfair Display', 'Noto Sans TC', sans-serif;
+}
+
+.class1 {
+  background-color: #FFFFFF;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.class2{
+  background-color: #FFFFFF;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.class3 {
+  background-color: #FFFFFF;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.class4 {
+  background-color: #FFFFFF;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+
+}
+
+
+h1{
+    font-family: 'Crimson Text', 'Noto Sans TC', sans-serif;
+}
+
+p{
+    font-family: 'Playfair Display', 'Noto Sans TC', sans-serif;
+}
+
+.icon-plus link {
+
+}
