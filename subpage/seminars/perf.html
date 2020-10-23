@@ -6,6 +6,31 @@
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/perf.css"> -->
     
+    
+    table {
+  width:100%;
+}
+<!-- table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+     -->
+#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+#t01 tr:nth-child(odd) {
+ background-color: #fff;
+}
+#t01 th {
+  background-color: black;
+  color: white;
+}
+</style>
+    
   <title> Perfectoid seminar </title> 
   </head>
   
@@ -25,7 +50,7 @@
   
   
    <p>
-            <table>
+            <table id="t01">
                 <tr> 
                     <tr>
 <!--                         <th> </th> -->
@@ -36,10 +61,11 @@
                 <tr>
 <!--                     <td class="class1" rowspan="2">rowspan跨列的欄後面接的數字表示跨幾列</td> -->
                  
-                    <td class="class4"><br><br> 
+                    <td class="class4">
    [<a href="https://cwlin4916.github.io/site/pdf/papers/Lurie/Lecture-notes/205:2018/Lecture1-Overview.pdf">1</a>, 
   <a href="https://cwlin4916.github.io/site/pdf/papers/Lurie/Lecture-notes/205:2018/Lecture2-Tilting.pdf">2</a>, Lur18] 
-  </p></td>
+ 
+              </td>
                     <td class="class4">4</td>
                    
                 </tr>
@@ -48,5 +74,6 @@
                     <td class="class4">3</td>
                     <td class="class4">4</td>
                 </tr>
+               </p>
 </body>
 </html>
