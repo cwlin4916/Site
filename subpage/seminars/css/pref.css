@@ -1,62 +1,27 @@
-
-table { 
-  border:0px solid #FFFFFF; 
-  font-family: 'Playfair Display', serif;
-  font-size:16px; 
-  text-align:center;
-  border-collapse:collapse;
-} 
-th { 
-  background-color: hsl(0, 0%, 35%)	;
-  padding:10px;
-  border:0px solid #FFFFFF;
-  color:#fff;
-  font-family: 'Playfair Display', 'Noto Sans TC', sans-serif;
-} 
-td { 
-  border:0px solid #FFFFFF;
-  padding:5px;
-  font-family: 'Playfair Display', 'Noto Sans TC', sans-serif;
+body {
+  position: absolute;
+  top: 20px;
+  left: 80px;
 }
 
-.class1 {
-  background-color: #FFFFFF;
-  text-align: center;
-  overflow: hidden;
-  white-space: nowrap;
+table{
+  border-top: solid 1px #DCDCDC; 
+  border-bottom: solid 1px #DCDCDC;
 }
 
-.class2{
-  background-color: #FFFFFF;
-  text-align: center;
-  overflow: hidden;
-  white-space: nowrap;
+table, th, td {
+  border-collapse: collapse;
 }
-
-.class3 {
-  background-color: #FFFFFF;
-  text-align: center;
-  overflow: hidden;
-  white-space: nowrap;
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-right: solid 1px #DCDCDC; 
+  border-left: solid 1px #DCDCDC;
 }
-
-.class4 {
-  background-color: #FFFFFF;
-  text-align: center;
-  overflow: hidden;
-  white-space: nowrap;
-
+   
+#t01 tr:nth-child(even) {
+  background-color: #eee;
 }
-
-
-h1{
-    font-family: 'Crimson Text', 'Noto Sans TC', sans-serif;
-}
-
-p{
-    font-family: 'Playfair Display', 'Noto Sans TC', sans-serif;
-}
-
-.icon-plus link {
-
+#t01 tr:nth-child(odd) {
+  background-color: #fff;
 }
