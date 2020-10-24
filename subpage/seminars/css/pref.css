@@ -19,48 +19,6 @@ td {
   font-family: 'Playfair Display', 'Noto Sans TC', sans-serif;
 }
 
-<<<<<<< Updated upstream
-.class1 {
-  background-color: #FFFFFF;
-  text-align: center;
-  overflow: hidden;
-  white-space: nowrap;
-}
-
-.class2{
-  background-color: #FFFFFF;
-  text-align: center;
-  overflow: hidden;
-  white-space: nowrap;
-}
-
-.class3 {
-  background-color: #FFFFFF;
-  text-align: center;
-  overflow: hidden;
-  white-space: nowrap;
-}
-
-.class4 {
-  background-color: #FFFFFF;
-  text-align: center;
-  overflow: hidden;
-  white-space: nowrap;
-
-}
-
-
-h1{
-    font-family: 'Crimson Text', 'Noto Sans TC', sans-serif;
-}
-
-p{
-    font-family: 'Playfair Display', 'Noto Sans TC', sans-serif;
-}
-
-.icon-plus link {
-
-=======
 .t01, th, .prereq, .reading, .further {
   border-collapse: collapse;
   border: solid 1px #DCDCDC;
