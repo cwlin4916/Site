@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
+<<<<<<< Updated upstream
         <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/perf.css">
+=======
+
+        <link rel="stylesheet" href="css/pref.css"> 
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        <title> Perfectoid seminar </title> 
+>>>>>>> Stashed changes
     
   <title> Perfectoid seminar </title> 
   </head>
   
+<<<<<<< Updated upstream
 <body text="#000000" >
 
 <p>
@@ -43,6 +51,117 @@
                     <td class="class4">4</td>
                    
                 </tr>
+=======
+  <body>
+    <p> Seminar talks. 
+         
+      <table class="t01">
+        <tr>
+          <th>Talk</th> 
+          <th>Prereq</th>
+          <th>Reading</th> 
+          <th>Further</th>
+        </tr>
+        
+        <tr>
+          <td class="talk">
+            <i class="fas">&nbsp[<a href="https://cwlin4916.github.io/site/pdf/perf/06:10:20.pdf">T1</a>,06/10/20]</i>
+            <div class="content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+          </td>
+          <td class="prereq"></td> 
+          <td class="reading"></td>
+          <td class="further"></td> 
+        </tr>
+        
+        <tr>
+          <td class="talk"> [<a href="https://cwlin4916.github.io/site/pdf/perf/13:10:20.pdf">T2</a>,13/10/20]</td>
+          <td class="prereq"></td>
+          <td class="reading"></td> 
+          <td class="further"></td> 
+        </tr>
+        
+        <tr>
+          <td class="talk">[<a href="https://cwlin4916.github.io/site/pdf/perf/23:10:20.pdf">T3</a>,23/10/20]</td>
+          <td class="prereq"></td> 
+          <td class="reading">
+            [<a href="https://cwlin4916.github.io/site/pdf/papers/Lurie/Lecture-notes/205:2018/Lecture1-Overview.pdf">1</a>, 
+            <a href="https://cwlin4916.github.io/site/pdf/papers/Lurie/Lecture-notes/205:2018/Lecture2-Tilting.pdf">2</a>, Lur18] 
+          </td> 
+          <td class="further"></td> 
+       </tr>
+      </table> 
+
+   </p> 
+
+   <p>
+    References.
+     <table class="t02">
+       <tr>
+         <td class="ref1">[<a href="https://cwlin4916.github.io/site/pdf/papers/B/Bha17.pdf">Bha17</a>]</td>
+         <td class="ref2"> Bhargav Bhatt, Lecture notes for a class on perfectoid spaces, 2017.</td>
+       </tr>
+
+       <tr>
+        <td class="ref1">[<a href="">Bos14</a>]</td>
+        <td class="ref2"></td>
+      </tr>
+
+      <tr>
+        <td class="ref1">[<a href="https://www.springer.com/gp/book/9783540125464">BGR84</a>]</td>
+        <td class="ref2">Siegfried Bosch, U. Gu&#776;ntzer, R. Remmert, Non-Archimedean Analysis, 1984.</td>
+      </tr>
+
+      <tr>
+        <td class="ref1">[<a href="https://www.math.ias.edu/~lurie/205.html">Lur18</a>] </td>
+        <td class="ref2">Jacob Lurie, Math 205, The Fargues-Fontaine Curve, 2018. </td>
+      </tr>
+
+      <tr>
+        <td class="ref1">[<a href="htpps://cwlin4916.github.io/site/pdf/papers/Morrow/2016-adicspace.pdf">Mor16</a>]</td>
+        <td class="ref2">Mathew Morrow. </td>
+      </tr>
+
+      <tr>
+        <td class="ref1">[<a href="https://cwlin4916.github.io/site/pdf/perf/mainperf.pdf">M</a>]</td>
+        <td class="ref2">Main notes.</td>
+      </tr>
+
+      <tr>
+        <td class="ref1">[<a href="https://cwlin4916.github.io/site/pdf/papers/M/Morel-aidcspace-19.pdf">Mor19</a>]</td>
+        <td class="ref2">Sophie Morel, Adic spaces, 2019.</td>
+      </tr>
+
+      <tr>
+        <td class="ref1"></td>
+        <td class="ref2"></td>
+      </tr>
+
+     </table>
+   </p>
+   
+   <script>
+   var coll = document.getElementsByClassName("fas");
+   var i;
+   
+   for (i = 0; i < coll.length; i++) {
+     coll[i].addEventListener("click", function() {
+       this.classList.toggle("active");
+       var content = this.nextElementSibling;
+       if (content.style.maxHeight){
+         content.style.maxHeight = null;
+       } else {
+         content.style.maxHeight = content.scrollHeight + "px";
+       } 
+     });
+   }
+
+   </script>
+   
+   <script src="https://kit.fontawesome.com/3d80410299.js" crossorigin="anonymous"></script>
+
+>>>>>>> Stashed changes
 
                 <tr>
                     <td class="class2">2</td>

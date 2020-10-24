@@ -19,6 +19,7 @@ td {
   font-family: 'Playfair Display', 'Noto Sans TC', sans-serif;
 }
 
+<<<<<<< Updated upstream
 .class1 {
   background-color: #FFFFFF;
   text-align: center;
@@ -59,4 +60,62 @@ p{
 
 .icon-plus link {
 
+=======
+.t01, th, .prereq, .reading, .further {
+  border-collapse: collapse;
+  border: solid 1px #DCDCDC;
+  padding: 10px;
+  text-align: left;
+  font-size: 15px;
+}
+
+.talk {
+  border-collapse: collapse;
+  border: solid 1px #DCDCDC;
+  padding: 10px;
+  text-align: left;
+  width: 300px;
+  overflow: auto;
+  font-size: 15px;
+}
+  
+.t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+.t01 tr:nth-child(odd) {
+  background-color: #fff;
+>>>>>>> Stashed changes
+}
+
+.t02, .ref2 .ref1 {
+  border-collapse: collapse;
+  border: solid 0px #ffffff;
+  padding: 2px;
+  text-align: left;
+}
+
+.fas {
+  border: none;
+  text-align: left;
+  outline: none;
+}
+
+.fas:after {
+  font-family: "Font Awesome 5 Free"; 
+  font-weight: 900;
+  content: "\f055";
+  float: left;
+}
+
+.active:after {
+  font-family: "Font Awesome 5 Free"; 
+  font-weight: 900; 
+  content: "\f056";
+}
+
+.content {
+  padding:0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
 }
