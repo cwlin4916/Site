@@ -41,13 +41,13 @@ body {
 .far:after {
   font-family: "Font Awesome 5 Free"; 
   font-weight: 100;
-  content: "\f111";
+  content: "\f5a4";
   float: left;
 }
 
 .active:after {
   font-family: "Font Awesome 5 Free"; 
-  font-weight: 100; 
+  font-weight: 900; 
   content: "\f5a4";
 }
 
