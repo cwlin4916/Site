@@ -1,22 +1,7 @@
-
-table { 
-  border:0px solid #FFFFFF; 
-  font-family: 'Playfair Display', serif;
-  font-size:16px; 
-  text-align:center;
-  border-collapse:collapse;
-} 
-th { 
-  background-color: hsl(0, 0%, 35%)	;
-  padding:10px;
-  border:0px solid #FFFFFF;
-  color:#fff;
-  font-family: 'Playfair Display', 'Noto Sans TC', sans-serif;
-} 
-td { 
-  border:0px solid #FFFFFF;
-  padding:5px;
-  font-family: 'Playfair Display', 'Noto Sans TC', sans-serif;
+body {
+  position: absolute;
+  top: 20px;
+  left: 80px;
 }
 
 .t01, th, .prereq, .reading, .further {
@@ -42,7 +27,6 @@ td {
 }
 .t01 tr:nth-child(odd) {
   background-color: #fff;
->>>>>>> Stashed changes
 }
 
 .t02, .ref2 .ref1 {
