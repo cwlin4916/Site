@@ -36,23 +36,19 @@ body {
   text-align: left;
 }
 
-.fas {
-  border: none;
-  text-align: left;
-  outline: none;
-}
 
-.fas:after {
+
+.far:after {
   font-family: "Font Awesome 5 Free"; 
-  font-weight: 900;
-  content: "\f055";
+  font-weight: 100;
+  content: "\f111";
   float: left;
 }
 
 .active:after {
   font-family: "Font Awesome 5 Free"; 
-  font-weight: 900; 
-  content: "\f056";
+  font-weight: 100; 
+  content: "\f5a4";
 }
 
 .content {
@@ -61,3 +57,9 @@ body {
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
+
+.talk{ position:relative;
+  display:inline-block;
+  }
+
+  
