@@ -17,9 +17,7 @@ body {
   border: solid 1px #DCDCDC;
   padding: 10px;
   text-align: left;
-/* 
-  width: 300px; */
-
+  width: 50px; 
   overflow: auto;
   font-size: 15px;
 }
