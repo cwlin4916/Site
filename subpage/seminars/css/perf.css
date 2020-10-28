@@ -7,9 +7,9 @@ body {
 .t01, th, .prereq, .reading, .further {
   border-collapse: collapse;
   border: solid 1px #DCDCDC;
-  padding: 10px;
   text-align: left;
   font-size: 15px;
+  padding-right: 50px; 
 }
 
 .talk {
@@ -27,13 +27,25 @@ body {
 }
 .t01 tr:nth-child(odd) {
   background-color: #fff;
+  padding-right:  100px;
 }
 
 .t02, .ref2 .ref1 {
   border-collapse: collapse;
   border: solid 0px #ffffff;
-  padding: 2px;
+  padding-right: 50px;
   text-align: left;
+}
+
+.t03 {
+  border-collapse: collapse;
+  border: solid 0px #ffffff;
+  text-align: left;
+  padding: 20px 0px; 
+}
+
+td{
+  padding-right: 50px; 
 }
 
 
@@ -52,7 +64,7 @@ body {
 }
 
 .content {
-  padding:0 18px;
+  padding:0px 18px;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
