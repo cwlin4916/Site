@@ -4,12 +4,12 @@ body {
   left: 80px;
 }
 
-.t01, th, .prereq, .reading, .further {
+.t01 {
   border-collapse: collapse;
-  border: solid 1px #DCDCDC;
+  border: none;
   text-align: left;
   font-size: 15px;
-  padding-right: 50px; 
+  padding: 15px 50px; 
 }
 
 .talk {
@@ -22,20 +22,30 @@ body {
   font-size: 15px;
 }
   
-.t01 tr:nth-child(even) {
-  background-color: #eee;
-}
 .t01 tr:nth-child(odd) {
-  background-color: #fff;
-  padding-right:  100px;
+  background-color:#f8f9f9;
+}
+.t01 tr:nth-child(even) {
+  background-color: #ebf5f8;
 }
 
-.t02, .ref2 .ref1 {
+
+.t02 {
   border-collapse: collapse;
-  border: solid 0px #ffffff;
-  padding-right: 50px;
+  border: none;
   text-align: left;
+  font-size: 15px;
+  padding: none;  
 }
+
+.t02 tr:nth-child(odd) {
+  background-color:#f8f9f9;
+}
+.t02 tr:nth-child(even) {
+  background-color: #e8edef;
+}
+
+
 
 .t03 {
   border-collapse: collapse;
@@ -44,9 +54,20 @@ body {
   padding: 20px 0px; 
 }
 
-td{
+tr, th {
+ padding-left: 15px;
   padding-right: 50px; 
+  padding-top: 5px; 
+  padding-bottom: 5px; 
 }
+
+td{
+  padding-left: 15px;
+   padding-right: 50px; 
+   padding-top: 5px; 
+   padding-bottom: 5px; 
+   text-align: left;
+ }
 
 
 
