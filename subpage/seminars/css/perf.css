@@ -52,7 +52,8 @@ body {
   border-collapse: collapse;
   border: solid 0px #ffffff;
   text-align: left;
-  padding: 20px 0px; 
+  padding: 20px; 
+  padding-top: 40px;
   background-color: white;
 }
 
@@ -98,10 +99,12 @@ td{
   }
 
 
-  .space1{ margin-top: 100px; }
+  .space1{ margin-top: 50px; }
 
 
   .pdf{ width:17px;height:17px; }
   .link{ width:12px;height:12px; padding-left: 3px;}
   .dogpaw{ width:13px;height:13px; }
-  .dog{width:14px; height:14px;}
+  .dog{width: 16px; height: 16px;}
+
+  .ull{padding-left: 2px;}
