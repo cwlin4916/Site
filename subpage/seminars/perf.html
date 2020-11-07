@@ -55,12 +55,6 @@ button {
       content: "\2212";
     }  */
     
-    .content {
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.2s ease-out;
-      padding: 0px;
-    }
     </style>
 
 
@@ -81,7 +75,7 @@ Goals.
 
 </button>
 
-<div class="content">
+<div  style="overflow:scroll;" class="content">
 <ul >
 <li> Integral p-adic hodge theory.
 <a href="BMS.html"> <img src="../../photos/png/icons/icons8-dog-64.png" class="dog"></img>  </a>
@@ -92,6 +86,8 @@ Goals.
 </div>
 
 <div class="space1"></div>
+
+
 <button class="collapsible"> 
    
   <img src="../../photos/png/icons/pawprint.png" class="dogpaw"></img> 
@@ -264,7 +260,6 @@ Seminar
     </table> 
  
 </div>
-</div>
 
 
 
@@ -333,8 +328,22 @@ References
     Adic spaces. 
   </td>
 </tr>
+<tr>
+  <td>
+    R. Gualdi.
+  </td>
+  <td>
+    Adic Spaces (syllabus)
+  </td>
+  <td>
+    2019
+  </td>
+  <td>
+    <a href="../../pdf/papers/G/Gua19-adicspace-syllabus.pdf"> <img src="../../photos/png/icons/icons8-pdf-30.png" class="pdf"></img> </a>
+  </td>
+</tr>
       <tr>
-             <td >Mathew Morrow. </td>
+             <td >M. Morrow. </td>
              <td> Adic spaces </td>
         <td>2016</td>
         <td > <a href="htpps://cwlin4916.github.io/site/pdf/papers/Morrow/2016-adicspace.pdf"> <img src="../../photos/png/icons/icons8-pdf-30.png" class="pdf"></img> </a> </td>
@@ -427,11 +436,11 @@ References
       if (content.style.maxHeight){
         content.style.maxHeight = null;
       } else {
-        content.style.maxHeight = content.scrollHeight + "px";
+        content.style.maxHeight = content.scrollHeight + "100%";
       } 
     });
   }
-  </script>
+</script>
 
   
   </body>

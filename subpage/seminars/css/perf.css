@@ -92,10 +92,34 @@ td{
 .content {
   padding:0px 18px;
   max-height: 0;
-  overflow: visible;
+  overflow: scroll;
   transition: max-height 0.2s ease-out;
 }
 
+
+
+button {
+  background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    font-size: 14px;
+} 
+
+.collapsible {
+  cursor: pointer;
+  padding: 0px;
+  width: 20%;
+  border: none;
+  text-align: left;
+  outline: none;
+}
+
+
+.collapsible:after {
+  content: none;
+  font-weight: bold;
+}
 .talk{ position:relative;
   display:inline-block;
   }
