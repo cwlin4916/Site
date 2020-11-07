@@ -19,7 +19,7 @@ body {
   padding: 10px;
   text-align: left;
   width: 100px; 
-  overflow: auto;
+  overflow: visible;
   font-size: 15px;
 }
   
@@ -46,7 +46,9 @@ body {
   background-color: #e8edef;
 }
 
-
+div{
+  overflow: visible;
+}
 
 .t03 {
   border-collapse: collapse;
@@ -90,7 +92,7 @@ td{
 .content {
   padding:0px 18px;
   max-height: 0;
-  overflow: hidden;
+  overflow: visible;
   transition: max-height 0.2s ease-out;
 }
 
@@ -101,6 +103,9 @@ td{
 
   .space1{ margin-top: 50px; }
 
+  sup{
+    font-size: 2px;
+  }
 
   .pdf{ width:17px;height:17px; }
   .link{ width:12px;height:12px; padding-left: 3px;}
