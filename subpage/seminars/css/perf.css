@@ -116,6 +116,9 @@ button {
 }
 
 
+ul{
+}
+
 .collapsible:after {
   content: none;
   font-weight: bold;
