@@ -79,6 +79,24 @@
     </tr>
     <tr>
       <td>
+        Divisors. 
+      </td>
+      <td>
+        <buttoon class="collapsible">  [Divisors on curves, Bed15] </buttoon>
+      <div class="content"> 
+        <ul>
+          <li> 
+            Counter ex. at 10.15. 
+          </li>
+        </ul>
+      </div>
+      </td>
+      <td>
+       <a href="https://www.youtube.com/watch?v=fDdzg83z6Xc">  <img src="../../photos/png/icons/icons8-play-button-48.png" class="link"></img>  </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
         Separation property
       </td>
       <td>
@@ -89,5 +107,24 @@
 
   
   </table>
+
+
+<script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight){
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "100%";
+      } 
+    });
+  }
+</script>
+
+
 </body>
 </html>
